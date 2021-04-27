@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css?family=Lora|Roboto");
+@import url("components/container.css");
+@import url("components/avatar.css");
+@import url("components/button.css");
+@import url("components/banner.css");
+@import url("components/card.css");
+@import url("components/galerie.css");
+
+body{
+	font-family: Roboto, serif;
+	font-size: 15px;
+	margin: 0px;
+	background-color:white;
+}
+
+
+h1, h2, h3, h4{
+	font-weight: bold;
+	font-size: 16px;
+	font-family:Roboto;
+}
+
+
+h3{
+	font-size: 30px;
+	font-weight: bold;
+}
+
+a{
+	text-decoration: none;
+	color:red;
+
+}
+
+a:hover{
+	color: black;
+
+}
+
+div.bleu-container{
+	position:relative;
+	width:750px;
+	margin:10px auto;
+}
+
+div.bleu{
+	position:relative;
+	width:230px;
+  height: auto;
+	cursor:pointer;
+	margin: 0px 10px 0px;
+	float:left;
+}
+
+div.bleu img{
+	width: 100%;
+	height:auto;
+	border-radius: 6px;
+}
+
+div.bleu div.desc{
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	opacity:0;
+	background-color:rgba(24,24,24,0.2);
+	color:#fefefe;
+	transition:all .4s;
+	text-align: center;
+}
+
+div.desc p{
+	font-family:roboto;
+    line-height: 100%;
+    overflow:inherit;
+    font-size:13px;
+    padding-left: 10px;
+    line-height: 20px;
+}
+
+div.desc h3{
+	font-size:15px;
+	font-weight:bold;
+	color:white;
+	padding-left: 10px;
+
+}
+
+div.bleu:hover div.desc{
+	opacity:1;
+}
+
+h4{
+	font-weight:bold;
+	text-align:center;
+	font-size:16px;
+}
+
+.cards {
+	display: table-column-group;
+	flex-wrap: wrap;
+}
+
+.card {
+	padding: 20px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.2);
+	display: inline-flex;
+	align-items: center;
+	justify-content: space-between;
+	border-radius: 3px;
+	margin: 10px 10px;
+	flex-basis: 270px;
+	flex-grow: 1;
+
+}
+
+.card img {
+	width: 150px;
+	border-radius: 6px;
+}
+
+.card h3 {
+	flex-grow: 1;
+	padding-left: 20px;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.h4 {
+	font-family: Roboto;
+	text-align: center;
+
+}
+
+.img-card{
+	border-radius:7px;
+	width:700px;
+	height:auto;
+	margin:10px auto;
+
+}
+
+p{
+	color:#919191;
+	line-height: 200%;
+}
+
+/* Solid border */
+hr.solid {
+  border-top: 2px solid #bbb;
+}
+
+.btn-blue{
+	background-color: #1597bb;
+	color:white;
+	padding: 15px 20px;
+	border-radius: 4px;
+	margin-bottom:100px;
+	margin-top: 100px;
+}
+
+.btn-blue:hover{
+   background-color: black;
+	color:white;
+}
+

@@ -1,0 +1,60 @@
+.banner{
+	position:relative;
+	background-image: linear-gradient(-225deg, rgba(0,0,0,0.8)0%, rgba(0,0,0,0.2)50%), url(../../images/banner.jpg);
+	padding: 20px 0px;
+	color: white;
+	background-size: cover;
+	background-position:center;
+	height:400px;
+}
+.banner h1 {
+	position:absolute;
+	left:30px;
+	top:10px;
+	font-size: 50px;
+	color: #ffffff;
+	font-weight: bold;
+	white-space: nowrap;
+	margin:0;
+}
+
+.banner h2 {
+	font-size: 32px;
+	font-weight: bold;
+	opacity: 1,4;
+	margin-bottom: 100px;
+	color : #ffffff;
+	position:absolute;
+	left:50%;
+	top:50%;
+	transform:translate(-50%,-50%);
+	letter-spacing:2px;
+}
+
+.banner h4 {
+	font-size: 16px;
+	font-weight: bold;
+	opacity: 1,4;
+	margin-bottom: 90px;
+	color : #ffffff;
+	position:absolute;
+	left:50%;
+	top:65%;
+	transform:translate(-50%,-50%);
+	letter-spacing:2px;
+}
+
+.banner a {
+	font-size: 16px;
+	font-weight: bold;
+	opacity: 1,4;
+	margin-bottom: 90px;
+	color : #ffffff;
+	position:absolute;
+	left:50%;
+	top:70%;
+	transform:translate(-50%,-50%);
+	letter-spacing:2px;
+}
+
+

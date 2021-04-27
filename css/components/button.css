@@ -1,0 +1,21 @@
+.btn{
+	background-color: #B9B9B9;
+    padding: 20px 20px ;
+	border-radius: 4px;
+	color: #F0F0F0;
+	font-weight: bold;
+	font-family: "Open Sans";
+	font-size: 15px;
+	text-align: end;
+	font-weight: 10px;
+	margin: 5px 5px 5px;
+}
+.btn-red: {
+	background-color: #6B72E1;
+	color:#fafaff;
+	padding: 15px 20px;
+	border-radius: 4px;
+	margin-bottom : 10px;
+	font-size: 20px;
+
+}
